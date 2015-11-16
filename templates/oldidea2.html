@@ -1,0 +1,37 @@
+{% load staticfiles %}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Accordion - Collapse content</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  });
+  </script>
+</head>
+<body>
+
+
+
+<div id="accordion">
+  {% for object in queryset %}
+  <h3>{{ object.project_name }}</h3>
+  <div>
+    <p>{{ object.project_description }}</p>
+    <p>Total Views {{ object.views }} </p>
+  </div>
+  {% endfor %}
+</div>
+
+
+</body>
+</html>

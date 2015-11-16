@@ -1,0 +1,72 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SmartHack </title>
+        <meta name="description" content="Getting the best hackathon experience" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="Codeply">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+        <link href="{% static 'css/font-awesome.min.css" rel="stylesheet' %}" />
+        <link href="{% static 'css/animate.min.css" rel="stylesheet' %}" />
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    </head>
+    <body>
+        <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand text-danger" href="#">SmartHack</a>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar-collapsible">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="#section1">Home</a>
+                        </li>
+                        <li>
+                            <a href="#section7">Find us on Git</a>
+                        </li>
+                        <li>&nbsp;</li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <section class="container-fluid" id="section1">
+            <div class="v-center">
+                <h1 class="text-center">SmartHack</h1>
+                <h2 class="text-center lato animate slideInDown">Get the most of your hackathon exp</h2>
+                <p class="text-center"><br>
+                    <a href="{% url 'idea' %}" class="btn btn-danger btn-lg btn-huge lato">Idea Research + Generator</a>
+                <p class="text-center">
+                    <a href="#" class="btn btn-danger btn-lg btn-huge lato" data-toggle="modal" data-target="#myModal">Team Skill Builder</a>
+                </p>
+                <p class="text-center">
+                    <a href="#" class="btn btn-danger btn-lg btn-huge lato" data-toggle="modal" data-target="#myModal">Task Manager</a></p><br>
+                </p>
+            </div>
+        </section>
+        <section class="container-fluid" id="section7">
+            <div class="row">
+                <!--fontawesome icons-->
+                <div class="col-sm-1 col-sm-offset-5 col-xs-4 text-center">
+                    <a href="#" class="fa fa-github fa-5x"></a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--scripts loaded here-->
+        <script src="{% static 'js/jquery.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/scripts.js' %}"></script>
+    </body>
+</html>
