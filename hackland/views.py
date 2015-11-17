@@ -16,3 +16,6 @@ def idea2(request):
 		}
 
 	    return render(request, "idea2.html", context)
+
+def dhome(request):
+	    return render(request, "dhome.html", {})

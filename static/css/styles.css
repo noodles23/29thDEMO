@@ -32,7 +32,7 @@ a:hover {
 .container-fluid {
 /*    background:center no-repeat fixed url('img/p1.jpg');*/
     background-size: cover;
-    padding: 40px;
+    padding: 80px;
     color:#F2FAF5;
     background-color:#707070;
     font-family: 'Lato', sans-serif;
@@ -44,11 +44,11 @@ b, strong {
 }
 
 .btn-danger {
-    background-color:#f44d3c;
+    background-color:#88D0FF;
 }
 
 .text-danger, a.text-danger {
-    color:#f44d3c;
+    color:#88D0FF;
 }
 
 .btn-huge {
@@ -69,6 +69,7 @@ b, strong {
 }
 
 .navbar-trans {
+  /*this the main hdeader*/
 	background-color:#2b2b2b;
     color:#cdcdcd;
     border-width:0;
@@ -76,22 +77,22 @@ b, strong {
 
 .navbar-trans .navbar-brand, .navbar-trans >.navbar-brand {
     padding: 14px;
-    color:#f44d3c;
+    color:#88D0FF;
 }
 
 .navbar-trans li>a:focus,.navbar-trans li.active {
-	background-color:#f44d3c;
-	color:#333;
+	background-color:#88D0FF;
+	color:#5a5a5a;
 }
 
 .navbar-trans li>a:hover {
-	background-color:#f44d3c;
-	color:#fff;
-	opacity:0.5;
+	background-color:#88D0FF;
+	color:#5a5a5a;
+/*	opacity:0.8;*/
 }
 
 .navbar-trans a{
-    color:#cdcdcd;
+    color:#F2FAF5;
     letter-spacing:1px;
 }
 
@@ -187,7 +188,7 @@ section {
 }
 
 #section7 {
-	background-color: #f44d3c;
+	background-color: #88D0FF;
 	color: #f6f6f6;
 	min-height:130px;
 	padding-top:40px;
@@ -204,7 +205,7 @@ footer {
 
 footer .nav>li>a {
     padding: 3px;
-    color: #f44d3c;
+    color: #88D0FF;
 }
 
 footer .nav>li>a:hover {

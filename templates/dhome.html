@@ -1,0 +1,42 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <!-- start: Header -->
+        {% include 'demo_head.html' %}
+    </head>
+    <body>
+        <!-- start: NavBar -->
+        {% include 'demo_navbar2.html' %}
+        <p></p>
+        <!-- start: Page Content -->
+        <div class="container-fluid">
+                <div class='col-sm-6'>
+                    <p class='lead text-align-center'>Welcome to the 29th Century Demo </p>
+                    Welcome to the future
+                    All your data in one place
+                    Explain- When you set up the data sources that can track every step of the customer journey, we'll mix it together
+
+                    Breakdowns are pre-made views that lets you drill down your data
+
+                    Analysis tabs 
+                    Generally the more data sources you connect, more analysis tabs are unlocked
+
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Start the Demo!</a></p>
+
+                
+                </div>
+                
+            <div class='col-sm-6'>
+                    <img src='{% static "img/landing.PNG" %}' class='img-responsive' />
+            </div>
+        </div>
+
+
+
+<!-- start: Footer -->
+{% include 'demo_footer.html' %}
+    </body>
+</html>
+

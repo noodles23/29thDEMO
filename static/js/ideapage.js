@@ -57,7 +57,6 @@ d3.csv('/static/uptomanhat2.csv', function makeGraphs(data) {
 	var minDate = monthNum.bottom(1)[0].month;
 	var maxDate = monthNum.top(1)[0].month;
 
-
     //Charts
 	var netProjects = dc.numberDisplay("#total-Projects");
 	var netViews = dc.numberDisplay("#total-Views");

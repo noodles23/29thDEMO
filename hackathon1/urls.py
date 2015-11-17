@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^$', 'hackland.views.home', name='home'),
     url(r'^idea/$', 'hackland.views.idea', name='idea'),
     url(r'^idea2/$', 'hackland.views.idea2', name='idea2'),
+    url(r'^dhome/$', 'hackland.views.dhome', name='dhome'),
 ]
