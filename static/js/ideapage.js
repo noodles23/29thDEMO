@@ -27,6 +27,7 @@ d3.csv('/static/uptomanhat2.csv', function makeGraphs(data) {
 	var catSpread = ndx.dimension(function(d) { return d.project_category; });
 	var typeSpread = ndx.dimension(function(d) { return d.project_type; });
 
+
 	var sourceGroup = hacksource.group();
 	var techGroup = techSpread.group();
 	var catGroup = catSpread.group();

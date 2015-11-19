@@ -102,7 +102,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django_project" />
   </component>
   <component name="RunManager" selected="Django server.Unnamed (1)">
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">

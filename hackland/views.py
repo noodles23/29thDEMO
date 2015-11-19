@@ -17,5 +17,17 @@ def idea2(request):
 
 	    return render(request, "idea2.html", context)
 
-def dhome(request):
-	    return render(request, "dhome.html", {})
+def demo(request):
+	    return render(request, "demo.html", {})
+
+def dsales(request):
+	    return render(request, "dsales.html", {})
+
+def dtop(request):
+	    return render(request, "dtop.html", {})
+
+def dret(request):
+	    return render(request, "dret.html", {})
+
+def dguided(request):
+	    return render(request, "dguided.html", {})

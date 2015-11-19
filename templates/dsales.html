@@ -1,0 +1,82 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <!-- start: Header -->
+        {% include 'demo_head.html' %}
+    </head>
+    <body>
+        <!-- start: NavBar -->
+        {% include 'demo_navbar2.html' %}
+        <p></p>
+        <!-- start: Page Content -->
+
+        <div class="container-fluid">
+
+        <div class='col-sm-12'>  
+            <p class='lead text-align-center'><strong>Smart Integrated Reporting </strong></p>    
+            <p>Connect your data sources and our analytics engine/data monkeys will generate beautiful interactive dashboards </p>
+            <p>All of our dashboards are interactive so click on a pie to drill down in finer detail </p>
+
+            <a href="{% url 'dtop' %}" class="btn btn-success btn-lg btn-large lato">Next - Slice & Dice</a>
+            <br></br>
+        </div>
+                <div class='col-sm-2'>                       
+                        <div class="span3 chart-wrapper" id="total-orders">
+                            <div class="chart-title">  <strong> Total Orders </strong> </div>                   
+                        </div>
+
+                        <div class="span3 chart-wrapper" id="total-sales">
+                            <div class="chart-title">  <strong> Total Sales ($) </strong> </div>                    
+                        </div>
+
+                    <div> <span> &nbsp</span></div>
+                    <a href='javascript:dc.filterAll();dc.redrawAll();' class="btn btn-default btn-lg  lato">Reset Charts</a>
+                
+                </div>
+                <div class='col-s-6'>
+                        <div class="span6"  id="date-chart">
+                            <div class="chart-title bold"> <strong> Total Sales ($) </strong></div>
+
+                        </div>
+                    </div>
+                    <div class='col-sm-4'>
+                        <div class="span3 chart-wrapper" id="cstatePie-chart">
+                            <div class="chart-title">  <strong> Customers by State #</strong> </div> 
+                            <p>Uses Sales + X data</p>
+                            <p><strong>Are your customers spread out or in one area? </strong></p>    
+                        </div>
+                    </div>
+
+                    <div class='col-sm-4'>
+                <div class="span3 chart-wrapper" id="resource-chart">
+                            <div class="chart-title">  <strong> Sales by Category ($) </strong> </div>                           
+                            <p>Uses Sales + X data </p>
+                            <p><strong>Which category is going to be top in 6 months? </strong></p>    
+                        </div>
+                        </div>
+<!--                         <div class='col-sm-4'>
+                        <div class="span3 chart-wrapper" id="gender-chart">
+                            <div class="chart-title">  <strong> Sales By Customer Gender ($)</strong> </div>
+                            <p>The M/F split tells which gender really buys your products </p>
+                            <p><strong>Is this ratio what you expected? </strong></p>           
+                        </div>
+                        </div> -->
+                        <div class='col-sm-4'>
+                        <div class="span3 chart-wrapper" id="csourcePie-chart">
+                            <div class="chart-title">  <strong> Sales By Original Customer Source ($)</strong> </div>  
+                            <p>Uses Sales + X data</p>
+                            <p><strong>Is the Paid_SEM % decreasing over time?</strong></p>        
+                        </div>
+                        </div>
+        </div>
+
+
+
+<!-- start: Footer -->
+{% include 'demo_footer.html' %}
+    <script src="{% static 'js/dmain.js' %}" type='text/javascript'></script>
+    </body>
+</html>
+

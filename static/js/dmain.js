@@ -83,7 +83,7 @@ console.log(maxDate);
 		.formatNumber(d3.format(".3s"));
 
 	dateChart
-		//.width(600)
+		.width(800)
 		.height(300)
 		.margins({top: 10, right: 50, bottom: 30, left: 50})
 		.dimension(weekNum)
@@ -103,7 +103,7 @@ console.log(maxDate);
 
 
 	resourceTypeChart
-        //.width(300)
+        .width(400)
         .height(300)
         // .dimension(salesPrice)
         .dimension(prodCategory)
@@ -119,8 +119,8 @@ console.log(maxDate);
     genderSalesChart
             .height(300)
             //.width(350)
-            .radius(90)
-            .innerRadius(40)
+            .radius(140)
+            .innerRadius(20)
             .transitionDuration(1000)
             .dimension(genderStatus)
             .ordinalColors(["#56B2EA","#E064CD","#F8B700","#78CC00","#7B71C5"])

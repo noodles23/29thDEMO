@@ -30,17 +30,26 @@ a:hover {
 .pie-graph g.row text {fill: white;}
 
 .container-fluid {
-/*    background:center no-repeat fixed url('img/p1.jpg');*/
+    background:center no-repeat fixed url('img/p2.jpg');
     background-size: cover;
     padding: 80px;
-    color:#F2FAF5;
-    background-color:#707070;
+    color:#282C33;
+    background-color:#fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-demo {
+/*    background:center no-repeat fixed url('img/p2.jpg');*/
+    background-size: cover;
+    padding: 80px;
+    color:#282C33;
+    background-color:#fff;
     font-family: 'Lato', sans-serif;
 }
 
 b, strong {
     font-weight: 700;
-    background-color:#282C33;
+/*    background-color:#282C33;*/
 }
 
 .btn-danger {

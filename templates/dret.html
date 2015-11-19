@@ -1,0 +1,42 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <!-- start: Header -->
+        {% include 'demo_head.html' %}
+    </head>
+    <body>
+        <!-- start: NavBar -->
+        {% include 'demo_navbar2.html' %}
+        <p></p>
+        <!-- start: Page Content -->
+
+        <div class="container-fluid">
+
+        <div class='col-sm-12 col-md-12 col-lg-12'>  
+            <p class='lead text-align-center'><strong>Slice & Dice Cross-Platform Data</strong></p>    
+            <p>The more data sources you connect, the more complete profile you have for your customers </p>
+            <p>29th Century automatically creates dashboards that you slice and dice</p>
+            <p>What products drive new customers to your store?</p>
+
+            <a href="{% url 'dguided' %}" class="btn btn-success btn-lg btn-large lato">Next - Guided Analytics</a>
+            <br></br>
+        </div>
+                <!-- <div class="row"> -->
+                <div class="row"> 
+                
+                        </div>
+
+    </div>
+
+
+
+
+
+<!-- start: Footer -->
+{% include 'demo_footer.html' %}
+    <script src="{% static 'js/dret.js' %}" type='text/javascript'></script>
+    </body>
+</html>
+
