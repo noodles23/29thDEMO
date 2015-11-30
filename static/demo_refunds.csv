@@ -1,0 +1,70 @@
+customer_id,customer_name,customer_gender,date_requested_refund,refund_status,refund_type,refund_partial_full,refund_product_category,refund_responsibility,refund_reason,product_price,refund_amtD,customer_preD,customer_preC,customer_postD,customer_postC,cs_prev_tickets,cs_prev_cashD,cs_prev_cashC,cs_prev_creditD,cs_prev_creditC,customer_total_refunds,customer_total_refunds_count,customer_net_value,customer_gross_value,customer_valueP,customer_last_active_fullmonths,customer_last_purchase_fullmonths,customer_lost,refund_amt_cat,previous_purchase_cat,post_status
+100001,Lara Smith,F,201501,approved,cash,full,shoes_women,Merchant,Defective Product,200,200,0,0,0,0,1,0,0,0,0,0,0,0,200,0%,10,10,lost,$200+,No Prior,Lost
+100002,James Mack,M,201502,approved,cash,partial,clothes_men,Merchant,Shipping Delay,299,59.8,1200,11,34,1,2,455,1,0,0,455,1,1018.2,1533,66%,6,6,lost,$50-$100,10 +,Returned
+100003,Crystal Bank,F,201503,approved,cash,full,clothes_women,Merchant,Wrong Product Shipped,50,50,0,0,250,5,0,0,0,0,0,0,0,250,300,83%,0,3,active,$50-$100,No Prior,Returned
+100004,Julia Warren,F,201504,approved,cash,full,clothes_women,Customer,Wrong Size Fit,60,60,300,2,350,3,0,0,0,0,0,0,0,650,710,92%,2,2,active,$50-$100,1 to 5,Returned
+100005,Elizabeth Anton,F,201505,approved,cash,full,shoes_women,Merchant,Defective Product,200,200,220,3,240,2,1,27,2,0,0,27,2,433,660,66%,0,1,active,$200+,1 to 5,Returned
+100006,Jason Blair,M,201506,approved,cash,full,shoes_women,Customer,Wrong Size Fit,180,180,350,2,700,5,0,0,0,0,0,0,0,1050,1230,85%,0,0,active,$100-$200,1 to 5,Returned
+100007,Rajat Kumar,M,201507,approved,cash,full,shoes_men,Merchant,Defective Product,300,300,200,1,120,1,0,0,0,0,0,0,0,320,620,52%,1,3,active,$200+,1 to 5,Returned
+100008,Andy Evans,M,201508,approved,cash,full,shoes_men,Merchant,Defective Product,250,250,480,4,140,2,2,168,1,0,0,168,1,452,870,52%,3,4,active,$200+,1 to 5,Returned
+100009,Emily Taylor,F,201509,approved,cash,full,shoes_women,Merchant,Defective Product,200,200,330,3,200,1,1,61,1,0,0,61,1,469,730,64%,0,1,active,$200+,1 to 5,Returned
+100010,Megan Ryan,F,201510,approved,cash,full,shoes_women,Customer,Wrong Size Fit,150,150,190,2,0,0,0,0,0,0,0,0,0,190,340,56%,2,2,active,$100-$200,1 to 5,Lost
+100011,Caroline Broz,F,201511,approved,cash,full,shoes_women,Customer,Wrong Size Fit,200,200,200,1,0,0,0,0,0,0,0,0,0,200,400,50%,0,0,active,$200+,1 to 5,Lost
+100012,Bryony O'Brien,F,201511,approved,cash,partial,shoes_women,Merchant,Shipping Delay,120,24,700,4,80,1,1,76,1,0,0,76,1,800,900,89%,0,0,active,< $50,1 to 5,Returned
+100013,Wanda Edmunds,F,201501,approved,cash,full,clothes_women,Merchant,Wrong Product Shipped,174,174,0,0,0,0,0,0,0,0,0,0,0,0,174,0%,11,11,lost,$100-$200,No Prior,Lost
+100014,Virginia Metcalfe,F,201502,approved,cash,full,clothes_women,Customer,Wrong Size Fit,178,178,0,0,0,0,0,0,0,0,0,0,0,0,178,0%,10,10,lost,$100-$200,No Prior,Lost
+100015,Dan Lewis,M,201503,approved,cash,full,clothes_men,Merchant,Defective Product,73,73,0,0,80,2,0,0,0,0,0,0,0,80,153,52%,6,6,lost,$50-$100,No Prior,Returned
+100016,Joanne Roberts,F,201504,approved,cash,full,clothes_women,Merchant,Defective Product,103,103,0,0,0,0,0,0,0,0,0,0,0,0,103,0%,8,8,lost,$100-$200,No Prior,Lost
+100017,Hannah MacDonald,F,201505,approved,cash,full,clothes_women,Merchant,Defective Product,173,173,0,0,60,1,0,0,0,0,0,0,0,60,233,26%,0,0,active,$100-$200,No Prior,Returned
+100018,Wanda Newman,F,201506,approved,cash,full,clothes_women,Merchant,Defective Product,52,52,0,0,24,2,0,0,0,0,0,0,0,24,76,32%,1,1,active,$50-$100,No Prior,Returned
+100019,Keith Slater,M,201507,approved,cash,partial,clothes_men,Merchant,Shipping Delay,59,11.8,0,0,68,2,0,0,0,0,0,0,0,115.2,127,91%,0,0,active,< $50,No Prior,Returned
+100020,Penelope Paterson,F,201508,approved,cash,full,clothes_women,Merchant,Defective Product,104,104,0,0,20,1,0,0,0,0,0,0,0,20,124,16%,1,1,active,$100-$200,No Prior,Returned
+100021,Olivia Berry,F,201509,approved,cash,full,clothes_women,Customer,Wrong Size Fit,77,77,0,0,90,3,0,0,0,0,0,0,0,90,167,54%,1,1,active,$50-$100,No Prior,Returned
+100022,Grace Young,F,201510,approved,cash,partial,clothes_women,Merchant,Shipping Delay,153,30.6,0,0,0,0,0,0,0,0,0,0,0,122.4,153,80%,2,2,active,< $50,No Prior,Lost
+100023,Leah Gill,F,201511,approved,cash,partial,clothes_women,Merchant,Shipping Delay,42,8.4,0,0,80,1,0,0,0,0,0,0,0,113.6,122,93%,0,0,active,< $50,No Prior,Returned
+100024,Joan Gill,F,201511,approved,cash,full,clothes_women,Customer,Wrong Size Fit,64,64,0,0,0,0,0,0,0,0,0,0,0,0,64,0%,1,1,active,$50-$100,No Prior,Lost
+100025,Bill Lee,M,201507,approved,cash,full,clothes_men,Merchant,Defective Product,101,101,0,0,150,2,0,0,0,0,0,0,0,150,251,60%,1,1,active,$100-$200,No Prior,Returned
+100026,Abigail Cameron,F,201508,approved,cash,full,clothes_women,Merchant,Defective Product,132,132,0,0,0,0,0,0,0,0,0,0,0,0,132,0%,4,4,lost,$100-$200,No Prior,Lost
+100027,Neil Ball,M,201509,approved,cash,full,clothes_men,Customer,Wrong Size Fit,55,55,0,0,40,1,0,0,0,0,0,0,0,40,95,42%,1,1,active,$50-$100,No Prior,Returned
+100028,Sonia Burgess,F,201510,approved,cash,full,clothes_women,Merchant,Defective Product,123,123,0,0,0,0,0,0,0,0,0,0,0,0,123,0%,2,2,active,$100-$200,No Prior,Lost
+100029,Jasmine Paterson,F,201511,approved,cash,full,clothes_women,Customer,Wrong Size Fit,142,142,0,0,0,0,0,0,0,0,0,0,0,0,142,0%,1,1,active,$100-$200,No Prior,Lost
+100030,Rebecca Powell,F,201511,approved,cash,full,clothes_women,Merchant,Defective Product,125,125,0,0,0,0,0,0,0,0,0,0,0,0,125,0%,1,1,active,$100-$200,No Prior,Lost
+100031,Grant Lawrence,M,201507,approved,cash,full,clothes_men,Customer,Wrong Size Fit,74,74,0,0,80,2,0,0,0,0,0,0,0,80,154,52%,1,1,active,$50-$100,No Prior,Returned
+100032,Madeleine Jackson,F,201508,approved,cash,full,clothes_women,Merchant,Defective Product,66,66,0,0,130,1,0,0,0,0,0,0,0,130,196,66%,1,1,active,$50-$100,No Prior,Returned
+100033,Irene Peters,F,201501,denied,denied,denied,clothes_women,Customer,Change of Mind,168,0,0,0,0,0,0,0,0,0,0,0,0,168,168,100%,11,11,lost,No Refund,No Prior,Lost
+100034,Sonia Cameron,F,201502,denied,denied,denied,clothes_women,Customer,Change of Mind,73,0,0,0,0,0,0,0,0,0,0,0,0,73,73,100%,10,10,lost,No Refund,No Prior,Lost
+100035,Pete Forsyth,M,201503,denied,denied,denied,clothes_men,Customer,Change of Mind,165,0,0,0,40,2,0,0,0,0,0,0,0,205,205,100%,1,1,active,No Refund,No Prior,Returned
+100036,James Hodges,M,201504,denied,denied,denied,clothes_men,Customer,Wrong Size Fit,138,0,0,0,60,1,0,0,0,0,0,0,0,198,198,100%,5,5,lost,No Refund,No Prior,Returned
+100037,Anne Springer,F,201505,denied,denied,denied,clothes_women,Merchant,Defective Product,67,0,0,0,0,0,0,0,0,0,0,0,0,67,67,100%,7,7,lost,No Refund,No Prior,Lost
+100038,Penelope Kerr,F,201506,denied,denied,denied,clothes_women,Customer,Wrong Size Fit,91,0,0,0,0,0,0,0,0,0,0,0,0,91,91,100%,6,6,lost,No Refund,No Prior,Lost
+100039,Amanda Brown,F,201507,denied,denied,denied,clothes_women,Merchant,Defective Product,150,0,0,0,20,1,0,0,0,0,0,0,0,170,170,100%,0,0,active,No Refund,No Prior,Returned
+100040,Kyle Pullman,M,201508,denied,denied,denied,clothes_men,Customer,Change of Mind,110,0,0,0,46,1,0,0,0,0,0,0,0,156,156,100%,3,3,active,No Refund,No Prior,Returned
+100041,Ruth Robertson,F,201509,denied,denied,denied,clothes_women,Customer,Wrong Size Fit,175,0,0,0,0,0,0,0,0,0,0,0,0,175,175,100%,3,3,active,No Refund,No Prior,Lost
+100042,Alex Manning,M,201510,denied,denied,denied,clothes_men,Merchant,Defective Product,134,0,0,0,0,0,0,0,0,0,0,0,0,134,134,100%,2,2,active,No Refund,No Prior,Lost
+100043,Jim Ferguson,M,201511,denied,denied,denied,clothes_men,Customer,Change of Mind,56,0,0,0,0,0,0,0,0,0,0,0,0,56,56,100%,1,1,active,No Refund,No Prior,Lost
+100044,Ella Ball,F,201511,denied,denied,denied,clothes_women,Customer,Wrong Size Fit,104,0,0,0,40,1,0,0,0,0,0,0,0,144,144,100%,0,0,active,No Refund,No Prior,Returned
+100045,Joan Hodges,F,201507,denied,denied,denied,clothes_women,Customer,Change of Mind,75,0,0,0,0,0,0,0,0,0,0,0,0,75,75,100%,5,5,lost,No Refund,No Prior,Lost
+100046,Lauren Allan,F,201508,denied,denied,denied,clothes_women,Customer,Wrong Size Fit,128,0,0,0,0,0,0,0,0,0,0,0,0,128,128,100%,4,4,lost,No Refund,No Prior,Lost
+100047,Mary Wright,F,201509,denied,denied,denied,clothes_women,Customer,Change of Mind,61,0,0,0,0,0,0,0,0,0,0,0,0,61,61,100%,3,3,active,No Refund,No Prior,Lost
+100048,Heather Slater,F,201510,denied,denied,denied,clothes_women,Merchant,Defective Product,102,0,0,0,15,1,0,0,0,0,0,0,0,117,117,100%,1,1,active,No Refund,No Prior,Returned
+100049,Boris Murray,M,201511,denied,denied,denied,clothes_men,Customer,Change of Mind,58,0,0,0,0,0,0,0,0,0,0,0,0,58,58,100%,1,1,active,No Refund,No Prior,Lost
+100050,Chris Patton,M,201510,denied,denied,denied,shoes_men,Merchant,Defective Product,56,0,0,0,0,0,0,0,0,0,0,0,0,56,56,100%,2,2,active,No Refund,No Prior,Lost
+100051,Jacob Gibson,M,201501,approved,credit,full,clothes_men,Merchant,Wrong Product Shipped,183,183,0,0,140,2,0,0,0,0,0,0,0,140,323,43%,0,0,active,$100-$200,No Prior,Returned
+100052,Blake Parsons,M,201502,approved,credit,full,clothes_men,Customer,Wrong Size Fit,132,132,0,0,180,1,0,0,0,0,0,0,0,180,312,58%,1,1,active,$100-$200,No Prior,Returned
+100053,Michelle Oliver,F,201503,approved,credit,full,clothes_women,Merchant,Defective Product,131,131,0,0,188,1,0,0,0,0,0,0,0,188,319,59%,0,0,active,$100-$200,No Prior,Returned
+100054,Molly Clark,F,201504,approved,credit,full,clothes_women,Merchant,Defective Product,71,71,0,0,73,2,0,0,0,0,0,0,0,73,144,51%,2,2,active,$50-$100,No Prior,Returned
+100055,Faith Robertson,F,201505,approved,credit,full,clothes_women,Merchant,Defective Product,63,63,0,0,59,4,0,0,0,0,0,0,0,59,122,48%,2,2,active,$50-$100,No Prior,Returned
+100056,Penelope Quinn,F,201506,approved,credit,full,clothes_women,Merchant,Defective Product,171,171,0,0,178,3,0,0,0,0,0,0,0,178,349,51%,2,2,active,$100-$200,No Prior,Returned
+100057,Virginia Gibson,F,201507,approved,credit,full,clothes_women,Merchant,Wrong Product Shipped,180,180,0,0,0,0,0,0,0,0,0,0,0,0,180,0%,5,5,lost,$100-$200,No Prior,Lost
+100058,Carl Coleman,M,201508,approved,credit,full,clothes_men,Merchant,Defective Product,169,169,0,0,123,1,0,0,0,0,0,0,0,123,292,42%,1,1,active,$100-$200,No Prior,Returned
+100059,Sue Parsons,F,201509,approved,credit,full,clothes_women,Customer,Wrong Size Fit,103,103,0,0,149,1,0,0,0,0,0,0,0,149,252,59%,0,0,active,$100-$200,No Prior,Returned
+100060,Olivia Sanderson,F,201510,approved,credit,full,clothes_women,Merchant,Wrong Product Shipped,146,146,0,0,238,1,0,0,0,0,0,0,0,238,384,62%,0,0,active,$100-$200,No Prior,Returned
+100061,Sophie Bond,F,201511,approved,credit,full,clothes_women,Customer,Wrong Size Fit,62,62,0,0,80,1,0,0,0,0,0,0,0,80,142,56%,0,0,active,$50-$100,No Prior,Returned
+100062,Megan Metcalfe,F,201507,approved,credit,full,clothes_women,Merchant,Defective Product,155,155,0,0,256,4,0,0,0,0,0,0,0,256,411,62%,0,0,active,$100-$200,No Prior,Returned
+100063,Megan Allan,F,201508,approved,credit,full,clothes_women,Merchant,Defective Product,168,168,0,0,244,3,0,0,0,0,0,0,0,244,412,59%,0,0,active,$100-$200,No Prior,Returned
+100064,Piers Terry,M,201509,approved,credit,full,clothes_men,Merchant,Defective Product,45,45,0,0,64,2,0,0,0,0,0,0,0,64,109,59%,1,1,active,< $50,No Prior,Returned
+100065,Melanie Dowd,F,201510,approved,credit,full,clothes_women,Merchant,Defective Product,62,62,0,0,0,0,0,0,0,0,0,0,0,0,62,0%,2,2,active,$50-$100,No Prior,Lost
+100066,Pat Ferguson,M,201511,approved,credit,full,clothes_men,Merchant,Defective Product,51,51,0,0,0,0,0,0,0,0,0,0,0,0,51,0%,1,1,active,$50-$100,No Prior,Lost
+100067,Irene Lee,F,201502,denied,denied,denied,shoes_women,Customer,Change of Mind,88,0,0,0,0,0,0,0,0,0,0,0,0,88,88,100%,10,10,lost,No Refund,No Prior,Lost
+100068,Sonia Esper,F,201504,denied,denied,denied,shoes_women,Merchant,Defective Product,182,0,0,0,0,0,0,0,0,0,0,0,0,182,182,100%,8,8,lost,No Refund,No Prior,Lost
+100069,Pete James,M,201508,denied,denied,denied,shoes_men,Merchant,Defective Product,185,0,0,0,0,0,0,0,0,0,0,0,0,185,185,100%,4,4,lost,No Refund,No Prior,Lost
