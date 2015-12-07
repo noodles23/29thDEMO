@@ -14,21 +14,85 @@
 
         <div class="container-fluid">
 
-        <div class='col-sm-12 col-md-12 col-lg-12'>  
-            <p class='lead text-align-center'><strong>Automated Insights - Customer Retention</strong></p>   
-                        <p>Our analytics engine tracks your data and when certain conditions are met, one of our live Monkeys will step up and generate the report for you</p>
+        <div class='col-sm-6 col-md-6 col-lg-6'>  
+            <p class='lead text-align-center'><strong>Ask a Question Like You Would a Person</strong></p>   
+                        <p>No more technical jargon. If you have a business questiion for your data, just ask</p>
 
-                            <p><strong>Here is a sample report on customer retention- the key to building a sustainable & profitable business</strong></p> 
+                            <p><strong>The Demo currently answers questions on Refunds & Top Customers</strong></p> 
 
-            <a href="{% url 'dguided' %}" class="btn btn-success btn-lg btn-large lato">I love you guys. What's next?</a>
-            <br></br>
+        <!-- Seach Box -->
+        <input type="text" class="searchFilter" onblur="if(this.value == '')this.value='Search'" onfocus="this.value==this.defaultValue?this.value='':null" value="Search" name="search">
+        
+        <!-- List For Search -->
+        <div class="searchable">
+        <table class="table table-bordered table-striped">
+          <thead>
+              <tr>
+                <th>Newest Questions</th>
+                <th>Answer Available?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>How does Gender affect Refund Behaviour?</td>
+                <td><a href="{% url 'dguided' %}" class="btn btn-standard lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>How does Product Category affect Refund Behaviour?</td>
+                <td><a href="{% url 'dguided' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>How does Refunded Amount affect Refund Behaviour?</td>
+                <td><a href="{% url 'dguided' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>How does Previous Purchases affect Refund Behaviour?</td>
+                <td><a href="{% url 'dguided' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>How does Refund Reason affect Refund Behaviour?</td>
+                <td><a href="{% url 'dguided' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+
+              <tr>
+                <td>Who are my Top Customers?</td>
+                <td><a href="{% url 'dtop' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>Who are my Top Customers by Customer State?</td>
+                <td><a href="{% url 'dtop' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>Who are my Top Customers by Product Name?</td>
+                <td><a href="{% url 'dtop' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>Who are my Top Customers by Customer Status?</td>
+                <td><a href="{% url 'dtop' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>Who are my Top Customers by Product Category?</td>
+                <td><a href="{% url 'dtop' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+              <tr>
+                <td>Who are my Top Customers by Gender?</td>
+                <td><a href="{% url 'dtop' %}" class="btn btn-success lato">1 Step Answer</a></td>
+              </tr>
+
+
+  
+            </tbody>
+          </table>
+        </div>
         </div>
                 <!-- <div class="row"> -->
                 <div class="row"> 
 
                     </div>
                     </div>
-                    </div>
+  
+
+
 
                     
 
@@ -39,6 +103,9 @@
 <!-- start: Footer -->
 {% include 'demo_footer.html' %}
     <script src="{% static 'js/dret.js' %}" type='text/javascript'></script>
+    <script type="text/javascript" src="{% static 'js/zsimpleContentSearch.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/zdemo.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/zprettify.js' %}"></script>
     </body>
 </html>
 
